@@ -6,6 +6,8 @@ It should work with any NETWM compatible window manager and implements [EWMH Spe
 With XDamage extensions it tracks changes to the window content and updates the output. The final image of multiple windows content is composed with xcomposite/xrender
 and then encoded as a buffer for usb lcd using the code in mbl_encoder/.
 
+![picoDesk](https://github.com/nicupavel/picoDesk/blob/master/screenshot.png?raw=true)
+
 
 # Configuring
 For USB LCD output compile with -DUSBOUTPUT.
